@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>CSC 471 Project</title>
+  <style>
+    body{background-color: black; color: white; face="verdana" color="white"}
+  </style>
+</head>
+
+<body>
+  <h1 align="center"style="font-family:verdana;"> CSC 471 Project </h1>
+  <h2 align="center"style="font-family:verdana;"> Update Employee Name </h2>
+
+  <form action="update.php"method="post">
+    <table border="5"align="center">
+      <tr>
+        <td>Employee SSN:</td>
+        <td><input type="text" name="ssn" minlength="9" maxlength="9" size="9"></td>
+      </tr>
+    </table>
+
+    <br></br>
+
+    <table border="0"align="center">
+      <tr>
+        <td>New Date of Birth:</td>
+        <td><input type="text" name="dob" maxlength="8" size="8"></td>
+      </tr>
+      <tr>
+        <td>New First Name:</td>
+        <td><input type="text" name="fName" maxlength="30" size="30"></td>
+      </tr>
+      <tr>
+        <td>New Middle Initial:</td>
+        <td><input type="text" name="mInt" maxlength="1" size="1"></td>
+      </tr>
+      <tr>
+        <td>New Last Name:</td>
+        <td><input type="text" name="lName" maxlength="30" size="30"></td>
+      </tr>
+      <tr>
+        <td height=50px align="center" colspan="2"><input type="submit" value="Update"></td>
+      </tr>
+      </table>
+  </form>
+</body>
+</html>

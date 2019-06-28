@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>CSC 471 Project</title>
+  <style>
+    body{background-color: black; color: white;}
+  </style>
+</head>
+
+<body>
+  <h1 style="font-family:verdana;"align="center"> CSC 471 Project </h1>
+  <h2 style="font-family:verdana;"align="center"> Database Query </h2>
+
+  <form action="query.php" method="post" border="0" align="center"
+  style="font-family:verdana;">
+    Choose Search Type:<br/>
+    <select name="searchtype">
+      <option value="Employee">Employee</option>
+      <option value="Dependent">Dependent</option>
+    </select>
+    <br/>
+    Enter Search Term:<br />
+    <input name="searchterm" type=""text" size="40"/>
+    <br />
+    <input type="submit" name="submit" value="Search"/>
+  </form>
+
+</body>
+</html>
